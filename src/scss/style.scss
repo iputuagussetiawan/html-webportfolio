@@ -1,0 +1,23 @@
+// IMPORT THE Font Awesome
+
+//IMPORT CUSTOM FONT
+@use "../webfonts/_lato.scss";
+@use "../webfonts/_barlow.scss";
+
+//IMPORT CUSTOM BOOTSTRAP
+@use "custom";
+
+//IMPORT BASE
+@use "base/reset";
+@use "base/animations";
+@use "base/typography";
+
+//IMPORT LAYOUT
+@use "layout/navigation";
+
+// IMPORT THE COMPONENTS
+@use "components/burgermenu";
+@use "components/buttons";
+@use "components/cards/card-portfolio";
+
+@use "sections/about";
